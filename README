@@ -1,0 +1,8 @@
+BCD multiplex counter, uses 
+-4511 BCD encoder to display numbers on 7 segment displays
+-4017 decade counter to multiplex display
+-rotary encoder to increment/decrement numbers
+-needs accelerometer library, Seeedstudio MMC7660
+-reads back data from accelerometer and prints it to serial and on the 7 segment display
+
+tbd: EEPROM handling, I2c code
